@@ -41,19 +41,7 @@ def ende_mode():
     return ende, msg.upper()
 
 
-def encode(msg):
-    enc_msg = []
-    apt = msg.split()
-    for i in apt:
-        list_i = list(i)
-        for x in list_i:
-            for morse in morse_code:
-                if morse[1] == x.upper():
-                    enc_msg.append(morse[0])
-                    continue
-        enc_msg.append('   ')
-    print(''.join(enc_msg))
-    return enc_msg
+
 
 
 def decode(msg):
