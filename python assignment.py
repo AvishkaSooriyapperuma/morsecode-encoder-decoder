@@ -83,7 +83,7 @@ def main():
     msg_rep = input(
         'Would you like to encode/decode another message? (y/n):')
 
-    while msg_rep != 'y' or msg_rep != 'n':
+    while msg_rep = 'y' or msg_rep = 'n':
 
         if msg_rep == 'y':
             ende(msg)
